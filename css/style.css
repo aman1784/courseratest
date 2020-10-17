@@ -6,11 +6,11 @@
 
 section {
   border: 2px solid black;
-  background-color: #00FF88;
+  background-color: #2576DE;
   width: 100%;
-  height: 220px;
+  height: 180px;
   font-family: Helvetica;
-  color: black;
+  color: yellow;
   position: relative;
   overflow: auto;
 }
@@ -19,40 +19,40 @@ section {
 {
         font-weight: bold;
 	text-align: center;
-	margin-top: 150px;
-	font-size: 60px;
+	margin-top: 200px;
+	font-size: 50px;
 }
 .container
 {   
 	
-	height:100px;
-	background-color: skyblue;
+	height:150px;
+	background-color: purple;
 }
 
 .box
 {  
     display: inline-block;   
-	margin: 5px;
-  border: 2px solid red;
-  width: 150px;
-  height: 150px;     
+    margin: 5px;
+    border: 2px solid red;
+    width: 150px;
+    height: 150px;     
 }
 
 #p1.box #chicken
 {
 	text-align: right;
 	font-size: 30px;
-	border:2px solid purple;
+	border:2px solid yellow;
   
   width: 30%;
   margin-left: 72%;
-  font-family: Times New Roman,sans-serif;
+  font-family: Times New Roman,arial;
   font-weight: bold;
   font-size: 125%;
   margin-bottom: 0;
   margin-top: 0;
   padding: 5px;
-  background-color: #FFFF00;
+  background-color: #FFFF12;
 
 }
 
@@ -87,7 +87,6 @@ section {
 	border:2px solid red;
 
 }
-
 #p3
 {
 	   height: 250px;
@@ -95,7 +94,7 @@ section {
     left: 940px;
 	position:absolute;
 	width: 400px;
-	background-color:green;
+	background-color:yellow;
 }
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
